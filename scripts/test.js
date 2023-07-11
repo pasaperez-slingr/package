@@ -16,5 +16,3 @@ exports.test = function () {
     log("test function");
     return "test function";
 }
-
-//an
