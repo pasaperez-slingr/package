@@ -1,0 +1,42 @@
+{
+	"label": "T",
+	"name": "t",
+	"dependencies": [],
+	"configuration": [
+		{
+			"name": "info",
+			"label": "info",
+			"type": "info",
+			"value": "info"
+		}
+	],
+	"events": [
+		{
+			"label": "Callback",
+			"name": "callback",
+			"description": "Happens when a async process is finished"
+		}
+	],
+	"metadata": [
+		{
+			"type": "script",
+			"namespace": "api",
+			"path": "/scripts/test.js"
+		},
+		{
+			"type": "listener",
+			"namespace": "webhook",
+			"path": "/listeners/listeners.js"
+		},
+		{
+			"type": "flowStep",
+			"namespace": "steps",
+			"path": "/flowSteps/testFlow"
+		},
+		{
+			"type": "uiService",
+			"namespace": "uiServices",
+			"path": "/uiServices/testUiService"
+		}
+	]
+}
