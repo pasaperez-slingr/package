@@ -2,7 +2,6 @@ exports.callbackTest = function () {
     sys.ui.sendMessage({
         scope: 'uiService:testUiService.testUiService',
         name: 'callbackTest',
-        config: {},
         callbacks: {
             callbackTest: function (originalMessage, callbackData) {
                 sys.logs.info('callbackTest');
