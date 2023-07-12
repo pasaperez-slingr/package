@@ -10,6 +10,13 @@ exports.callbackTest = function () {
         }
     });
 }
+
+,
+		{
+			"type": "uiService",
+			"namespace": "uiServices",
+			"path": "/uiServices/testUiService"
+		}
 */
 exports.test = function () {
     sys.logs.warn("test function");
