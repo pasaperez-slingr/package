@@ -20,7 +20,7 @@ exports.callbackTest = function () {
 */
 exports.test = function () {
     sys.logs.warn("test function");
-    log("test function");
+    //log("test function");
     return "test function";
 }
 
