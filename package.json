@@ -38,6 +38,11 @@
 			"type": "flowStep",
 			"namespace": "steps",
 			"path": "/flowSteps/testFlow"
+		},
+		{
+			"type": "uiService",
+			"namespace": "uiServices",
+			"path": "/uiServices/testUiService"
 		}
 	]
 }
