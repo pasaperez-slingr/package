@@ -6,12 +6,6 @@
 		{
 			"name": "info",
 			"label": "info",
-			"type": "info",
-			"value": "info"
-		},
-		{
-			"name": "info",
-			"label": "info",
 			"type": "label",
 			"value": "'info'"
 		}
