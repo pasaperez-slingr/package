@@ -11,8 +11,8 @@ exports.callbackTest = function () {
 }
 exports.test = function () {
     sys.logs.warn("test function");
-    log("test function");
-    return "test function";
+    log("test function 1");
+    return "test function 1";
 }
 
 // next_version=$(git describe --tags --abbrev=0 | awk -F. -v OFS=. 'NF==1{print "v" ++$NF}; NF>1{if(length($NF+1)>length($NF))$(NF-1)++; $NF=sprintf("%0*d", length($NF), ($NF+1)); print ""$0}') && git add . && git commit -m "Mensaje del commit" && git tag -a "$next_version" -m "Mensaje del tag" && git push --follow-tags && git push --delete origin $(git tag -l | sort -V | head -n -2) && git tag -l | sort -V | head -n -2 | xargs git tag -d && git fetch --tags
