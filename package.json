@@ -24,9 +24,9 @@
 			"path": "/scripts/test.js"
 		},
 		{
-			"type": "listener",
-			"namespace": "webhook",
-			"path": "/listeners/listeners.js"
+			"type": "uiService",
+			"namespace": "uiServices",
+			"path": "/uiServices/testUiService"
 		}
 	]
 }
