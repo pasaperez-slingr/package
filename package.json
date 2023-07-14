@@ -25,24 +25,9 @@
 	],
 	"metadata": [
 		{
-			"type": "script",
-			"namespace": "api",
-			"path": "/scripts/test.js"
-		},
-		{
 			"type": "listener",
 			"namespace": "webhook",
 			"path": "/listeners/listeners.js"
-		},
-		{
-			"type": "flowStep",
-			"namespace": "steps",
-			"path": "/flowSteps/testFlow"
-		},
-		{
-			"type": "uiService",
-			"namespace": "uiServices",
-			"path": "/uiServices/testUiService"
 		}
 	]
 }
