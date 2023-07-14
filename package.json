@@ -19,6 +19,11 @@
 	],
 	"metadata": [
 		{
+			"type": "script",
+			"namespace": "api",
+			"path": "/scripts/test.js"
+		},
+		{
 			"type": "listener",
 			"namespace": "webhook",
 			"path": "/listeners/listeners.js"

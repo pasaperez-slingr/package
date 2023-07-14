@@ -20,11 +20,6 @@ exports.test = function () {
 
 /*
 
-		{
-			"type": "script",
-			"namespace": "api",
-			"path": "/scripts/test.js"
-		},
 ,
 		{
 			"type": "flowStep",
