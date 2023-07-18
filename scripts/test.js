@@ -1,5 +1,5 @@
 exports.callbackTest = function () {
-    console.log('test function arrived UI');
+    log('test function arrived UI');
     sys.ui.sendMessage({
         scope: 'uiService:testUiService.testUiService',
         name: 'callbackTest',
