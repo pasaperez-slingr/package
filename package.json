@@ -37,6 +37,11 @@
 			"type": "flowStep",
 			"namespace": "steps",
 			"path": "/flowSteps/testFlow"
+		},
+		{
+			"type": "flowStep",
+			"namespace": "steps",
+			"path": "/flowSteps/listDocumentsPandadoc"
 		}
 	]
 }
