@@ -5,9 +5,5 @@
  */
 step.listDocumentsPandadoc = function (inputs) {
 
-  var options = {
-    path: "/documents"
-  }
-
-  return endpoint._get(options);
+  return sys.logs.warn(JSON.stringify(svc.http.get({url:'https://postman-echo.com/get'})));
 }
